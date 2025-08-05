@@ -87,7 +87,7 @@ To protect VAC’s intellectual property (source code, architecture, algorithms,
 - Architecture (IPE, HACM, JRL).
 - Patent-related data (USPTO №63/855,344).
 - Business plans and user data.  
-Contact Victor Kuznetsov (Vkuz02452@gmail.com) to request the NDA template.
+Contact Victor Kuznetsov (ViktorAdamCore@pm.me) to request the NDA template.
 
 ## 🛠️ System Requirements
 
