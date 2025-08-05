@@ -231,6 +231,15 @@ We welcome contributions! To get started:
 2. Create a branch: `git checkout -b feature/your-feature`.  
 3. Submit a pull request with clear descriptions.  
 **Note**: All contributors must sign the NDA to access sensitive project details.
+---
+
+🔒 **Looking for the full source code?**
+
+The complete implementation of VAC (full reasoning logic, memory modules, architecture, and agent integrations) is available under NDA.
+
+📩 Request access: [ViktorAdamCore@pm.me](mailto:ViktorAdamCore@pm.me)
+
+🔐 Private Repository (under NDA): [vac-agi-full](https://github.com/vac-architector/vac-agi-full)
 
 ## 📬 Contact
 
