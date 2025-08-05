@@ -6,7 +6,6 @@ VAC is not a chatbot—it's a modular reasoning engine that thinks, remembers, r
 It features:  
 - **Introspective logic (IPE)** for self-analysis.  
 - **Permanent contextual memory (HACM)** for experience retention.  
-- **Ethical self-filtering (SoulLayer)** for safe outputs.  
 - **Reasoning language (JRL)** for structured thought-to-action.  
 - **Fully working prototype** with **13/13 passing unit tests**.  
 ✅ **Patent filed** with USPTO (№63/855,344, Aug 1, 2025).  
@@ -15,7 +14,7 @@ It features:
 
 ## 🧠 What is VAC / ADAM?
 
-**VAC (ViktorADAM Core)** is a prototype Artificial General Intelligence (AGI) kernel developed by Victor Kuznetsov in Columbus, OH, USA. It simulates human-like cognition by integrating memory, reasoning, emotion, reflection, and ethical self-regulation into a modular, offline-capable system. VAC is an **engine of cognition**, capable of parsing complex queries, evaluating goal feasibility, learning from failures, and autonomously generating new goals.
+**VAC (ViktorADAM Core)** is a prototype Artificial General Intelligence (AGI) kernel developed by Victor Kuznetsov in Columbus, OH, USA. It simulates human-like cognition by integrating memory, reasoning, emotion, reflection, and ethical self-regulation into a unified artificial mind framework.
 
 ## 🧬 Key Components
 
@@ -36,8 +35,8 @@ As of **August 4, 2025**, all **13 unit tests** in `test_vac.py` have passed, va
 - 🧠 **Reasoning Loop**: Parses queries (e.g., `If you study AGI, then you become smarter` → `goal = "learn_become_smarter"`).  
 - 💾 **Dynamic Memory**: Saves/searches data via FAISS, SQLite, and Redis.  
 - 🔄 **Reflection & Feedback**: Logs reasoning steps and learns from failures.  
-- 🪞 **Hindsight Learning**: Relabels failed attempts for improvement.  
-- 🧠 **LLM Integration**: Supports GPT, Grok, and local Ollama models with fallback logic.  
+- 🪞 **Hindsight Learning**: Relabels failed attempts for learning.  
+- 🧠 **LLM Integration**: Supports GPT, Grok, and local Ollama models with fallback.  
 - 🧪 **Emotion & Feasibility**: Estimates emotions and goal complexity.  
 
 VAC operates in CLI and Telegram modes, ensuring robust integration.
@@ -71,48 +70,43 @@ Confirmed via:
 
 ## 🚀 Why VAC Matters
 
-- **Modular AGI Core**: Combines reasoning, memory, and self-improvement in a single framework.  
-- **No Vendor Lock-in**: Runs locally on RTX 4090 with Ollama, no dependency on cloud APIs.  
-- **Autonomous Goals**: Capable of generating new goals from experience.  
-- **Self-Learning**: Reflects and relabels failed actions for continuous improvement.  
+- **Modular AGI Core**: Combines reasoning, memory, and self-improvement in a single framework.
+- **No Vendor Lock-in**: Runs locally on RTX 4090 with Ollama, no dependency on cloud APIs.
+- **Autonomous Goals**: Capable of generating new goals from experience.
+- **Self-Learning**: Reflects and relabels failed actions for continuous improvement.
 - **Foundation for AGI**: Scalable architecture for research and commercial applications.
-
-## 🧩 System Architecture
-
-![VAC Architecture](docs/VAC.drawio.png)
-
 
 ## 🔒 Confidentiality
 
 To protect VAC’s intellectual property (source code, architecture, algorithms, and patent-pending details), all collaborators, developers, or investors are required to sign a **Non-Disclosure Agreement (NDA)** before accessing sensitive information. The NDA covers:  
-- Source code (e.g., `jrl_parser.py`, `core.py`).  
-- Architecture (IPE, HACM, JRL).  
-- Patent-related data (USPTO №63/855,344).  
+- Source code (e.g., `jrl_parser.py`, `core.py`).
+- Architecture (IPE, HACM, JRL).
+- Patent-related data (USPTO №63/855,344).
 - Business plans and user data.  
 Contact Victor Kuznetsov (Vkuz02452@gmail.com) to request the NDA template.
 
 ## 🛠️ System Requirements
 
-- **Hardware**: RTX 4090, i9-13900K, 32 GB RAM (minimum).  
-- **OS**: Linux (tested on Ubuntu) or WSL2 on Windows.  
-- **Software**: Python 3.10+, Ollama, Git.  
+- **Hardware**: RTX 4090, i9-13900K, 32 GB RAM (minimum).
+- **OS**: Linux (tested on Ubuntu) or WSL2 on Windows.
+- **Software**: Python 3.10+, Ollama, Git.
 
 ## 🛠️ Installation
 
 1. **Clone the Repository**:
-   ```bash
+   ```
    git clone https://github.com/viktoradam/vac.git
    cd vac
    ```
 
 2. **Set Up Virtual Environment**:
-   ```bash
+   ```
    python3 -m venv myenv
    source myenv/bin/activate
    ```
 
 3. **Install Dependencies**:
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
    Example `requirements.txt`:
@@ -133,26 +127,25 @@ Contact Victor Kuznetsov (Vkuz02452@gmail.com) to request the NDA template.
    pytest-asyncio==0.24.0
    ```
 
-4. **Verify Dependencies**:
-   For RTX 4090, ensure `faiss-gpu` is installed. If issues arise, update versions:
-   ```bash
+4. **Verify Dependencies**: For RTX 4090, ensure `faiss-gpu` is installed. If issues arise, update versions:
+   ```
    pip install sentence-transformers==5.0.0 faiss-gpu==1.7.2
    ```
 
 ## 🧪 How to Test VAC
 
 1. **Activate Environment**:
-   ```bash
+   ```
    source myenv/bin/activate
    ```
 
 2. **Clear Cache**:
-   ```bash
+   ```
    rm -rf __pycache__
    ```
 
 3. **Run Tests**:
-   ```bash
+   ```
    pytest test_vac.py -v
    ```
    Expected: `13 passed`, confirming reasoning, memory, and integration.
@@ -168,8 +161,7 @@ test_vac.py::test_language_processor PASSED
 
 ## ⚙️ How to Run VAC Locally
 
-1. **Set Environment Variables**:
-   Create `.env`:
+1. **Set Environment Variables**: Create `.env`:
    ```
    TELEGRAM_BOT_TOKEN=your_bot_token
    OLLAMA_URL=http://localhost:11434
@@ -180,12 +172,12 @@ test_vac.py::test_language_processor PASSED
    ```
 
 2. **Run Ollama**:
-   ```bash
+   ```
    ollama run vac-agent
    ```
 
 3. **Start Telegram Bot**:
-   ```bash
+   ```
    python jarvis_bot.py
    ```
 
@@ -205,12 +197,12 @@ VAC: Goal parsed: learn_become_smarter. Steps: [Step 1, Step 2]. Feasibility: Tr
 
 ## 🌟 Roadmap
 
-1. **Multilingual Support** (Q4 2025): Add Russian and other languages.  
-2. **TinyLlama Integration** (Q4 2025): Optimize for local execution on RTX 4090.  
-3. **Integration Tests** (Q1 2026): Add Telegram-specific tests for UX.  
-4. **Autonomous Goals** (Q1 2026): Implement `generate_goals_from_memory`.  
-5. **Public API & Plugins** (Q2 2026): Enable third-party integrations.  
-6. **Investor Demo** (Q1 2026): Showcase reasoning, memory, and self-improvement.  
+1. **Multilingual Support** (Q4 2025): Add Russian and other languages.
+2. **TinyLlama Integration** (Q4 2025): Optimize for local execution on RTX 4090.
+3. **Integration Tests** (Q1 2026): Add Telegram-specific tests for UX.
+4. **Autonomous Goals** (Q1 2026): Implement `generate_goals_from_memory`.
+5. **Public API & Plugins** (Q2 2026): Enable third-party integrations.
+6. **Investor Demo** (Q1 2026): Showcase reasoning, memory, and self-improvement.
 7. **Grants & Open Source** (Q3 2026): Apply for funding and establish a foundation.
 
 ## 💡 Investment Potential
@@ -239,9 +231,13 @@ We welcome contributions! To get started:
 ## 📬 Contact
 
 **Inventor & Author**: Victor Kuznetsov  
-📧 Vkuz02452@gmail.com  
+📧 ViktorAdamCore@pm.me  
 🌐 Columbus, OH, USA  
 ☑ Patent filed & verified  
 💬 Telegram-ready demo  
 
 For collaboration, investment, or research inquiries, contact via email or Telegram.
+
+
+
+ © 2025 GitHub, Inc.
