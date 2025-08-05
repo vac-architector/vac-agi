@@ -248,7 +248,7 @@ The complete implementation of VAC (full reasoning logic, memory modules, archit
 🌐 Columbus, OH, USA  
 ☑ Patent filed & verified  
 💬 Telegram-ready demo  
-💬 Telegram: @vac-agii
+💬 Telegram: @vac_agi
 
 
 For collaboration, investment, or research inquiries, contact via email.
