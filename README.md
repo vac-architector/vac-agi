@@ -66,7 +66,11 @@ Confirmed via:
 | AutoGPT  | ❌     | ❌         | Basic            | ❌            | Black-box            |
 | Reflexion| ❌     | ✅         | ❌               | ❌            | Fragmented           |
 | Devin    | ❌     | ❌         | Limited          | ❌            | Partial              |
-| **VAC**  | ✅ HACM| ✅ IPE     | ✅ Dynamic        | ✅ SoulLayer  | Transparent reasoning |
+| **VAC**  | ✅ HACM| ✅ IPE     | ✅ Dynamic        | ✅ SoulLayer  | Transparent reasoning |\
+
+## 🧩 System Architecture
+
+![VAC Architecture](docs/VAC.drawio.png)
 
 ## 🚀 Why VAC Matters
 
@@ -236,7 +240,7 @@ We welcome contributions! To get started:
 ☑ Patent filed & verified  
 💬 Telegram-ready demo  
 
-For collaboration, investment, or research inquiries, contact via email or Telegram.
+For collaboration, investment, or research inquiries, contact via email.
 
 
 
