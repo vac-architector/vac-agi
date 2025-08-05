@@ -77,6 +77,11 @@ Confirmed via:
 - **Self-Learning**: Reflects and relabels failed actions for continuous improvement.  
 - **Foundation for AGI**: Scalable architecture for research and commercial applications.
 
+## 🧩 System Architecture
+
+![VAC Architecture](docs/VAC.drawio.png)
+
+
 ## 🔒 Confidentiality
 
 To protect VAC’s intellectual property (source code, architecture, algorithms, and patent-pending details), all collaborators, developers, or investors are required to sign a **Non-Disclosure Agreement (NDA)** before accessing sensitive information. The NDA covers:  
