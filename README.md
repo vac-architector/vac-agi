@@ -110,25 +110,25 @@ Contact Victor Kuznetsov (ViktorAdamCore@pm.me) to request the NDA template.
    ```
 
 3. **Install Dependencies**:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
    Example `requirements.txt`:
    ```
-aiogram==3.13.1
-sentence-transformers==5.0.0
-faiss-gpu-cu12==1.8.0.2
-tenacity==9.0.0
-redis==5.1.1
-numpy==2.1.2
-networkx==3.3
-torch==2.4.1
-httpx==0.27.2
-openai==1.52.2
-RestrictedPython==7.3
-python-dotenv==1.0.1
-pytest==8.3.3
-pytest-asyncio==0.24.0
+   aiogram==3.13.1
+   sentence-transformers==5.0.0
+   faiss-gpu==1.7.2
+   tenacity==9.0.0
+   redis==5.1.1
+   numpy==2.1.2
+   networkx==3.3
+   torch==2.4.1
+   httpx==0.27.2
+   openai==1.52.2
+   RestrictedPython==7.3
+   python-dotenv==1.0.1
+   pytest==8.3.3
+   pytest-asyncio==0.24.0
    ```
 
 4. **Verify Dependencies**: For RTX 4090, ensure `faiss-gpu` is installed. If issues arise, update versions:
