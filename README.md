@@ -248,23 +248,6 @@ VAC:  [Processes 47-page PDF in 3 seconds]
 │  • File Upload  │    │  • Planner    │    │  • Graph DB    │
 └─────────────────┘    └───────────────┘    └────────────────┘
 ```
-
-### Memory Hierarchy
-```python
-class HACMCore:
-    """Human-like Hierarchical Archiving & Context Memory"""
-
-    def store_memory(self, content, memory_type, priority):
-        # Intelligent categorization and storage
-        # Q-utility learning for optimization
-        # MemHash for reproducibility
-
-    def retrieve_context(self, query, scope, k=10):
-        # Multi-tier search: task → user → global
-        # Semantic similarity + recency + utility
-        # Context-aware ranking
-```
-
 ### Learning Algorithm
 VAC uses a novel Q-utility learning system that adapts to user preferences:
 - **Feedback Integration**: Learns from implicit and explicit feedback
