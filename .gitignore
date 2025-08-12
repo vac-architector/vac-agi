@@ -1,0 +1,27 @@
+# Код и конфиденциальные данные
+*.py
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+*.pkl
+*.env
+*.key
+*.pem
+Ngrok token.txt
+*.zip
+*.tar
+*.gz
+__pycache__/
+.pytest_cache/
+backup/
+
+# Разрешить маркетинговые файлы и директории
+!README.markdown
+!assets/
+!assets/*.png
+!assets/*.webp
+!docs/
+!docs/*.pdf
+!docs/*.txt
+!docs/VAC.drawio.png
