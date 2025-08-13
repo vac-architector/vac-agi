@@ -311,7 +311,7 @@ We're actively seeking partnerships with:
 ## ⚖️ Legal & Patents
 
 ### Intellectual Property
-- **USPTO Patent**: ✅ **GRANTED**
+- **USPTO Patent**: ✅ 
 - **Status**: Patent approved and active
 - **Filing Date**: July 31, 2025
 - **Title**: "ViktorADAM Core (VAC): Hybrid Cognitive Architecture for Self-Improving Artificial Mind"
