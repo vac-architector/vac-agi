@@ -25,31 +25,6 @@
 
 ---
 
-## 🧠 Revolutionary Architecture
-
-### HACM (Hierarchical Archiving & Context Memory)
-VAC's breakthrough memory system mimics human cognitive architecture:
-- **Working Memory**: Active context and immediate tasks
-- **Episodic Memory**: Personal experiences and interactions
-- **Semantic Memory**: Facts, concepts, and learned knowledge
-- **Procedural Memory**: Skills, patterns, and processes
-- **Meta Memory**: Self-awareness and learning strategies
-
-### IPE (Intention-Prediction-Execution) Engine
-Advanced reasoning system that:
-1. **Analyzes intentions** behind user queries
-2. **Predicts optimal outcomes** using memory context
-3. **Executes multi-step plans** with self-reflection
-4. **Learns from feedback** to improve future responses
-
-### Key Technical Innovations
-- **MemHash™**: Ensures reproducible responses (RPT≥0.999)
-- **Q-Utility Learning**: Adapts to user preferences automatically
-- **SoulLayer**: Complete audit trail for enterprise compliance
-- **Zero-Leak Architecture**: All processing happens locally
-
----
-
 ## 🖥️ Where VAC Excels
 
 ### Personal Use
